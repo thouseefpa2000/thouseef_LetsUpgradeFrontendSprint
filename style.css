@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins,roboto;
+
+}
+.container {
+    margin: 40px;
+    transition: 0.5s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container h1 {
+    color: purple;
+}
+
+.shopping {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    color: purple;
+    border: 1px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.shopping i {
+    font-size: 20px;
+}
+
+.shopping span {
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* card */
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-box{
+
+    margin: 50px;
+    width: 300px;
+    height: 450px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 60px;
+    text-align: center;
+    transition: .3s ease;
+    
+}
+.card-box:hover{
+    background: rgb(184, 180, 180);
+}
+.img-box{
+    width: 250px;
+    height: 200px;
+    margin: 25px;
+}
+.img-box img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 30px 25px 30px;
+    cursor: pointer;
+}
+.content{
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+
+}
+h2{
+    margin: 10px;
+    color: rgb(29, 12, 12);
+}
+.description{
+    margin:0 25px 20px 25px;
+    width: 250px;
+    overflow: hidden;
+}
+p{
+    font-size: 15px;
+    margin: 0;
+}
+.price{
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+span{
+    color: rgb(196, 184, 20);
+}
+.btn{
+    background:purple ;
+    color: #fff;
+    width: 100%;
+    max-width: 250px;
+    font-size: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    transition: .6s ease;
+}
+.btn:hover {
+    background: rgb(201, 135, 201);
+    color: rgb(56, 18, 18);
+    transform: scale(1.05);
+ }
+ 
